@@ -5,6 +5,7 @@
 #include "cd.h"
 #include "pwd.h"
 #include "help.h"
+#include "open.h"
 
 int main() {
     std::string line;
@@ -23,6 +24,7 @@ int main() {
         else if (cmd == "cd") run_cd(tokens);
         else if (cmd == "pwd") run_pwd();
         else if (cmd == "help") run_help();
+        else  if (cmd == "open") run_open(tokens);
         else {
             int result = std::system(line.c_str());
             if (result != 0) {
