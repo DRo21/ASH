@@ -1,0 +1,35 @@
+#include <iostream>
+#include <string>
+#include "shell.h"
+#include "ls.h"
+#include "cd.h"
+#include "pwd.h"
+#include "help.h"
+
+int main() {
+    std::string line;
+
+    while (true) {
+        std::cout << "ASH> ";
+        std::getline(std::cin, line);
+
+        if (line.empty()) continue;
+
+        auto tokens = split(line);
+        const std::string& cmd = tokens[0];
+
+        if (cmd == "exit") break;
+        else if (cmd == "ls") run_ls(tokens);
+        else if (cmd == "cd") run_cd(tokens);
+        else if (cmd == "pwd") run_pwd();
+        else if (cmd == "help") run_help();
+        else {
+            int result = std::system(line.c_str());
+            if (result != 0) {
+                std::cerr << "Command failed: " << result << "\n";
+            }
+        }
+    }
+
+    return 0;
+}
