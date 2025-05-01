@@ -138,6 +138,7 @@
     <ClCompile Include="src\commands\clear.cpp" />
     <ClCompile Include="src\commands\echo.cpp" />
     <ClCompile Include="src\commands\help.cpp" />
+    <ClCompile Include="src\commands\history.cpp" />
     <ClCompile Include="src\commands\ls.cpp" />
     <ClCompile Include="src\commands\mkdir.cpp" />
     <ClCompile Include="src\commands\open.cpp" />
@@ -153,6 +154,7 @@
     <ClInclude Include="include\commands\clear.h" />
     <ClInclude Include="include\commands\echo.h" />
     <ClInclude Include="include\commands\help.h" />
+    <ClInclude Include="include\commands\history.h" />
     <ClInclude Include="include\commands\ls.h" />
     <ClInclude Include="include\commands\mkdir.h" />
     <ClInclude Include="include\commands\open.h" />

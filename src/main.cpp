@@ -12,6 +12,7 @@
 #include "rm.h"
 #include "touch.h"
 #include "echo.h"
+#include "history.h"
 
 int main() {
     std::string line;
@@ -21,6 +22,7 @@ int main() {
         std::getline(std::cin, line);
 
         if (line.empty()) continue;
+        add_to_history(line);
 
         auto tokens = split(line);
         const std::string& cmd = tokens[0];
@@ -37,6 +39,7 @@ int main() {
         else if (cmd == "rm") run_rm(tokens);
         else if (cmd == "touch") run_touch(tokens);
         else if (cmd == "echo") run_echo(tokens);
+        else if (cmd == "history") run_history();
         else {
             int result = std::system(line.c_str());
             if (result != 0) {
