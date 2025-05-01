@@ -1,7 +1,8 @@
 #include <iostream>
 #include <string>
-#include "shell.h"
+#include "core/shell.h"
 #include "commands/all_commands.h"
+#include "core/command_handler.h"
 
 int main() {
     std::string line;
@@ -17,22 +18,7 @@ int main() {
         const std::string& cmd = tokens[0];
 
         if (cmd == "exit") break;
-        else if (cmd == "ls") run_ls(tokens);
-        else if (cmd == "cd") run_cd(tokens);
-        else if (cmd == "pwd") run_pwd();
-        else if (cmd == "help") run_help();
-        else  if (cmd == "open") run_open(tokens);
-        else if (cmd == "clear") run_clear();
-        else if (cmd == "mkdir") run_mkdir(tokens);
-        else if (cmd == "rmdir") run_rmdir(tokens);
-        else if (cmd == "rm") run_rm(tokens);
-        else if (cmd == "touch") run_touch(tokens);
-        else if (cmd == "echo") run_echo(tokens);
-        else if (cmd == "history") run_history();
-        else if (cmd == "cat") run_cat(tokens);
-        else if (cmd == "cp") run_cp(tokens);
-        else if (cmd == "find") run_find(tokens);
-        else {
+        if (!run_command(tokens)) {
             int result = std::system(line.c_str());
             if (result != 0) {
                 std::cerr << "Command failed: " << result << "\n";
