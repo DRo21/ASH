@@ -1,4 +1,4 @@
-#include "cat.h"
+#include "commands/cat.h"
 #include <iostream>
 #include <fstream>
 

@@ -1,22 +1,7 @@
 #include <iostream>
 #include <string>
 #include "shell.h"
-#include "ls.h"
-#include "cd.h"
-#include "pwd.h"
-#include "help.h"
-#include "open.h"
-#include "clear.h"
-#include "mkdir.h"
-#include "rmdir.h"
-#include "rm.h"
-#include "touch.h"
-#include "echo.h"
-#include "history.h"
-#include "cat.h"
-#include "cp.h"
-#include "find.h"
-
+#include "commands/all_commands.h"
 
 int main() {
     std::string line;

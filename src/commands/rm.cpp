@@ -1,4 +1,4 @@
-#include "rm.h"
+#include "commands/rm.h"
 #include <iostream>
 #include <filesystem>
 

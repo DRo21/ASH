@@ -1,4 +1,4 @@
-#include "cd.h"
+#include "commands/cd.h"
 #include <iostream>
 #include <filesystem>
 

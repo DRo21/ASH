@@ -1,4 +1,4 @@
-#include "echo.h"
+#include "commands/echo.h"
 #include <iostream>
 
 void run_echo(const std::vector<std::string>& args) {

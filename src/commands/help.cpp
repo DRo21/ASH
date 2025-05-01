@@ -1,4 +1,4 @@
-#include "help.h"
+#include "commands/help.h"
 #include <iostream>
 
 void run_help() {
