@@ -11,6 +11,7 @@
 #include "rmdir.h"
 #include "rm.h"
 #include "touch.h"
+#include "echo.h"
 
 int main() {
     std::string line;
@@ -35,6 +36,7 @@ int main() {
         else if (cmd == "rmdir") run_rmdir(tokens);
         else if (cmd == "rm") run_rm(tokens);
         else if (cmd == "touch") run_touch(tokens);
+        else if (cmd == "echo") run_echo(tokens);
         else {
             int result = std::system(line.c_str());
             if (result != 0) {

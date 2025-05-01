@@ -56,6 +56,9 @@
     <ClCompile Include="src\commands\touch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\commands\echo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\shell.h">
@@ -89,6 +92,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\commands\touch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\commands\echo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -136,6 +136,7 @@
   <ItemGroup>
     <ClCompile Include="src\commands\cd.cpp" />
     <ClCompile Include="src\commands\clear.cpp" />
+    <ClCompile Include="src\commands\echo.cpp" />
     <ClCompile Include="src\commands\help.cpp" />
     <ClCompile Include="src\commands\ls.cpp" />
     <ClCompile Include="src\commands\mkdir.cpp" />
@@ -150,6 +151,7 @@
   <ItemGroup>
     <ClInclude Include="include\commands\cd.h" />
     <ClInclude Include="include\commands\clear.h" />
+    <ClInclude Include="include\commands\echo.h" />
     <ClInclude Include="include\commands\help.h" />
     <ClInclude Include="include\commands\ls.h" />
     <ClInclude Include="include\commands\mkdir.h" />
