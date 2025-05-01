@@ -10,6 +10,7 @@
 #include "mkdir.h"
 #include "rmdir.h"
 #include "rm.h"
+#include "touch.h"
 
 int main() {
     std::string line;
@@ -33,6 +34,7 @@ int main() {
         else if (cmd == "mkdir") run_mkdir(tokens);
         else if (cmd == "rmdir") run_rmdir(tokens);
         else if (cmd == "rm") run_rm(tokens);
+        else if (cmd == "touch") run_touch(tokens);
         else {
             int result = std::system(line.c_str());
             if (result != 0) {
@@ -40,6 +42,5 @@ int main() {
             }
         }
     }
-
     return 0;
 }

@@ -143,6 +143,7 @@
     <ClCompile Include="src\commands\pwd.cpp" />
     <ClCompile Include="src\commands\rm.cpp" />
     <ClCompile Include="src\commands\rmdir.cpp" />
+    <ClCompile Include="src\commands\touch.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\shell.cpp" />
   </ItemGroup>
@@ -156,6 +157,7 @@
     <ClInclude Include="include\commands\pwd.h" />
     <ClInclude Include="include\commands\rm.h" />
     <ClInclude Include="include\commands\rmdir.h" />
+    <ClInclude Include="include\commands\touch.h" />
     <ClInclude Include="include\shell.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
