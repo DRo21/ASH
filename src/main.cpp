@@ -9,6 +9,7 @@
 #include "clear.h"
 #include "mkdir.h"
 #include "rmdir.h"
+#include "rm.h"
 
 int main() {
     std::string line;
@@ -29,6 +30,9 @@ int main() {
         else if (cmd == "help") run_help();
         else  if (cmd == "open") run_open(tokens);
         else if (cmd == "clear") run_clear();
+        else if (cmd == "mkdir") run_mkdir(tokens);
+        else if (cmd == "rmdir") run_rmdir(tokens);
+        else if (cmd == "rm") run_rm(tokens);
         else {
             int result = std::system(line.c_str());
             if (result != 0) {

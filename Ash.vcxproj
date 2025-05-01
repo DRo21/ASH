@@ -141,6 +141,7 @@
     <ClCompile Include="src\commands\mkdir.cpp" />
     <ClCompile Include="src\commands\open.cpp" />
     <ClCompile Include="src\commands\pwd.cpp" />
+    <ClCompile Include="src\commands\rm.cpp" />
     <ClCompile Include="src\commands\rmdir.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\shell.cpp" />
@@ -153,6 +154,7 @@
     <ClInclude Include="include\commands\mkdir.h" />
     <ClInclude Include="include\commands\open.h" />
     <ClInclude Include="include\commands\pwd.h" />
+    <ClInclude Include="include\commands\rm.h" />
     <ClInclude Include="include\commands\rmdir.h" />
     <ClInclude Include="include\shell.h" />
   </ItemGroup>
