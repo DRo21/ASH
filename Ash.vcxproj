@@ -134,6 +134,7 @@
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\commands\cat.cpp" />
     <ClCompile Include="src\commands\cd.cpp" />
     <ClCompile Include="src\commands\clear.cpp" />
     <ClCompile Include="src\commands\echo.cpp" />
@@ -150,6 +151,7 @@
     <ClCompile Include="src\shell.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\commands\cat.h" />
     <ClInclude Include="include\commands\cd.h" />
     <ClInclude Include="include\commands\clear.h" />
     <ClInclude Include="include\commands\echo.h" />
