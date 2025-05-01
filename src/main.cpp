@@ -6,6 +6,9 @@
 #include "pwd.h"
 #include "help.h"
 #include "open.h"
+#include "clear.h"
+#include "mkdir.h"
+#include "rmdir.h"
 
 int main() {
     std::string line;
@@ -25,6 +28,7 @@ int main() {
         else if (cmd == "pwd") run_pwd();
         else if (cmd == "help") run_help();
         else  if (cmd == "open") run_open(tokens);
+        else if (cmd == "clear") run_clear();
         else {
             int result = std::system(line.c_str());
             if (result != 0) {

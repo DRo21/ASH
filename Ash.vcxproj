@@ -135,19 +135,25 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\commands\cd.cpp" />
+    <ClCompile Include="src\commands\clear.cpp" />
     <ClCompile Include="src\commands\help.cpp" />
     <ClCompile Include="src\commands\ls.cpp" />
+    <ClCompile Include="src\commands\mkdir.cpp" />
     <ClCompile Include="src\commands\open.cpp" />
     <ClCompile Include="src\commands\pwd.cpp" />
+    <ClCompile Include="src\commands\rmdir.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\shell.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\commands\cd.h" />
+    <ClInclude Include="include\commands\clear.h" />
     <ClInclude Include="include\commands\help.h" />
     <ClInclude Include="include\commands\ls.h" />
+    <ClInclude Include="include\commands\mkdir.h" />
     <ClInclude Include="include\commands\open.h" />
     <ClInclude Include="include\commands\pwd.h" />
+    <ClInclude Include="include\commands\rmdir.h" />
     <ClInclude Include="include\shell.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
