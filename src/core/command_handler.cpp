@@ -25,7 +25,11 @@ bool run_command(const std::vector<std::string>& tokens) {
         {"cp", run_cp},
         {"find", run_find},
         {"mv", run_mv},
-        {"ln", run_ln}
+        {"ln", run_ln},
+        {"more", run_more},
+        {"less", run_less },
+        {"tail", run_tail},
+        {"head", run_head}
     };
 
     const std::string& cmd = tokens[0];

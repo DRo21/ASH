@@ -22,10 +22,10 @@ In the future more features like flags will be added.
 
 ## File Viewing & Editing
 - [x] `cat`: Concatenate and display file content.
-- [ ] `more`: View the contents of a file, page by page.
-- [ ] `less`: View file content, allows scrolling and searching.
-- [ ] `head`: Display the first few lines of a file.
-- [ ] `tail`: Display the last few lines of a file.
+- [x] `more`: View the contents of a file, page by page.
+- [x] `less`: View file content, allows scrolling and searching.
+- [x] `head`: Display the first few lines of a file.
+- [x] `tail`: Display the last few lines of a file.
 
 ## Process Management
 - [ ] `ps`: Display currently running processes.

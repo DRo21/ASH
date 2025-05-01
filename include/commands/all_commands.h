@@ -18,5 +18,9 @@
 #include "find.h"
 #include "mv.h"
 #include "ln.h"
+#include "more.h"
+#include "less.h"
+#include "tail.h"
+#include "head.h"
 
 #endif
