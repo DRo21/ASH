@@ -15,6 +15,8 @@
 #include "history.h"
 #include "cat.h"
 #include "cp.h"
+#include "find.h"
+
 
 int main() {
     std::string line;
@@ -44,6 +46,7 @@ int main() {
         else if (cmd == "history") run_history();
         else if (cmd == "cat") run_cat(tokens);
         else if (cmd == "cp") run_cp(tokens);
+        else if (cmd == "find") run_find(tokens);
         else {
             int result = std::system(line.c_str());
             if (result != 0) {
