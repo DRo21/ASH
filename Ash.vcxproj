@@ -137,6 +137,7 @@
     <ClCompile Include="src\commands\cat.cpp" />
     <ClCompile Include="src\commands\cd.cpp" />
     <ClCompile Include="src\commands\clear.cpp" />
+    <ClCompile Include="src\commands\cp.cpp" />
     <ClCompile Include="src\commands\echo.cpp" />
     <ClCompile Include="src\commands\help.cpp" />
     <ClCompile Include="src\commands\history.cpp" />
@@ -154,6 +155,7 @@
     <ClInclude Include="include\commands\cat.h" />
     <ClInclude Include="include\commands\cd.h" />
     <ClInclude Include="include\commands\clear.h" />
+    <ClInclude Include="include\commands\cp.h" />
     <ClInclude Include="include\commands\echo.h" />
     <ClInclude Include="include\commands\help.h" />
     <ClInclude Include="include\commands\history.h" />

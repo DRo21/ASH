@@ -14,6 +14,7 @@
 #include "echo.h"
 #include "history.h"
 #include "cat.h"
+#include "cp.h"
 
 int main() {
     std::string line;
@@ -42,6 +43,7 @@ int main() {
         else if (cmd == "echo") run_echo(tokens);
         else if (cmd == "history") run_history();
         else if (cmd == "cat") run_cat(tokens);
+        else if (cmd == "cp") run_cp(tokens);
         else {
             int result = std::system(line.c_str());
             if (result != 0) {
