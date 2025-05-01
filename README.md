@@ -16,9 +16,9 @@ In the future more features like flags will be added.
 - [x] `rm`: Remove files or directories.
 - [x] `touch`: Create an empty file or update the timestamp of an existing file.
 - [x] `cp`: Copy files or directories.
-- [ ] `mv`: Move or rename files or directories.
+- [x] `mv`: Move or rename files or directories.
 - [x] `find`: Search for files and directories in a directory hierarchy.
-- [ ] `ln`: Create hard or symbolic links to files.
+- [x] `ln`: Create hard or symbolic links to files.
 
 ## File Viewing & Editing
 - [x] `cat`: Concatenate and display file content.

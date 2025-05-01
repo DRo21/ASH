@@ -16,5 +16,7 @@
 #include "cat.h"
 #include "cp.h"
 #include "find.h"
+#include "mv.h"
+#include "ln.h"
 
 #endif

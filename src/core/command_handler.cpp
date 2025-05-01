@@ -23,7 +23,9 @@ bool run_command(const std::vector<std::string>& tokens) {
         {"history", [](const auto& args) { run_history(); }},
         {"cat", run_cat},
         {"cp", run_cp},
-        {"find", run_find}
+        {"find", run_find},
+        {"mv", run_mv},
+        {"ln", run_ln}
     };
 
     const std::string& cmd = tokens[0];
