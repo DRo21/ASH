@@ -30,5 +30,12 @@
 #include "bg.h"
 #include "fg.h"
 #include "nohup.h"
+#include "df.h"
+#include "du.h"
+#include "free.h"
+#include "uname.h"
+#include "uptime.h"
+#include "who.h"
+#include "w.h"
 
 #endif

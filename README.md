@@ -38,13 +38,13 @@ In the future more features like flags will be added.
 - [x] `nohup`: Run a command immune to hangups (often used to run long-running tasks).
 
 ## System Information & Management
-- [ ] `df`: Display disk space usage.
-- [ ] `du`: Display disk usage of files and directories.
-- [ ] `free`: Display memory usage.
-- [ ] `uname`: Display system information.
-- [ ] `uptime`: Show how long the system has been running.
-- [ ] `who`: Show who is logged in to the system.
-- [ ] `w`: Display who is logged in and their activity.
+- [x] `df`: Display disk space usage.
+- [x] `du`: Display disk usage of files and directories.
+- [x] `free`: Display memory usage.
+- [x] `uname`: Display system information.
+- [x] `uptime`: Show how long the system has been running.
+- [x] `who`: Show who is logged in to the system.
+- [x] `w`: Display who is logged in and their activity.
 - [x] `top`: Display real-time information about system processes and resource usage.
 
 ## File Permissions & Ownership
