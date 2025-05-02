@@ -28,14 +28,14 @@ In the future more features like flags will be added.
 - [x] `tail`: Display the last few lines of a file.
 
 ## Process Management
-- [ ] `ps`: Display currently running processes.
-- [ ] `top`: Display dynamic real-time information about processes.
-- [ ] `kill`: Terminate processes.
-- [ ] `killall`: Terminate processes by name.
-- [ ] `bg`: Resume a suspended job in the background.
-- [ ] `fg`: Bring a job to the foreground.
-- [ ] `jobs`: List all current jobs running in the background.
-- [ ] `nohup`: Run a command immune to hangups (often used to run long-running tasks).
+- [x] `ps`: Display currently running processes.
+- [x] `top`: Display dynamic real-time information about processes.
+- [x] `kill`: Terminate processes.
+- [x] `killall`: Terminate processes by name.
+- [x] `bg`: Resume a suspended job in the background.
+- [x] `fg`: Bring a job to the foreground.
+- [x] `jobs`: List all current jobs running in the background.
+- [x] `nohup`: Run a command immune to hangups (often used to run long-running tasks).
 
 ## System Information & Management
 - [ ] `df`: Display disk space usage.
@@ -45,7 +45,7 @@ In the future more features like flags will be added.
 - [ ] `uptime`: Show how long the system has been running.
 - [ ] `who`: Show who is logged in to the system.
 - [ ] `w`: Display who is logged in and their activity.
-- [ ] `top`: Display real-time information about system processes and resource usage.
+- [x] `top`: Display real-time information about system processes and resource usage.
 
 ## File Permissions & Ownership
 - [ ] `chmod`: Change file permissions.
@@ -78,9 +78,9 @@ In the future more features like flags will be added.
 - [ ] `unset`: Remove environment variables or shell functions.
 
 ## Job Control
-- [ ] `bg`: Resume a job in the background.
-- [ ] `fg`: Bring a job to the foreground.
-- [ ] `jobs`: List background jobs.
+- [x] `bg`: Resume a job in the background.
+- [x] `fg`: Bring a job to the foreground.
+- [x] `jobs`: List background jobs.
 - [ ] `ctrl+z`: Suspend the current foreground job.
 - [ ] `ctrl+c`: Terminate the current foreground job.
 

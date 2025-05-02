@@ -29,7 +29,15 @@ bool run_command(const std::vector<std::string>& tokens) {
         {"more", run_more},
         {"less", run_less },
         {"tail", run_tail},
-        {"head", run_head}
+        {"head", run_head},
+        {"ps", run_ps},
+        {"top", run_top},
+        {"kill", run_kill},
+        {"killall", run_killall},
+        {"jobs", run_jobs},
+        {"bg", run_bg},
+        {"fg", run_fg},
+        {"nohup", run_nohup}
     };
 
     const std::string& cmd = tokens[0];
@@ -39,5 +47,8 @@ bool run_command(const std::vector<std::string>& tokens) {
         it->second(tokens);
         return true;
     }
-    return false;
+    else {
+        std::cerr << "Command not found: " << cmd << std::endl;
+        return false;
+    }
 }

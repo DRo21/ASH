@@ -22,5 +22,13 @@
 #include "less.h"
 #include "tail.h"
 #include "head.h"
+#include "ps.h"
+#include "top.h"
+#include "kill.h"
+#include "killall.h"
+#include "jobs.h"
+#include "bg.h"
+#include "fg.h"
+#include "nohup.h"
 
 #endif
