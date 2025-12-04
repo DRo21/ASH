@@ -1,9 +1,8 @@
 #ifndef SHELL_H
 #define SHELL_H
 
-#include <string>
-#include <vector>
-
-std::vector<std::string> split(const std::string& input);
+void init_shell(void);
+void run_shell_loop(void);
+void cleanup_shell(void);
 
 #endif
