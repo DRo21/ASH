@@ -18,7 +18,7 @@ It is designed for learning and experimentation, with a clean, modular structure
 ### Clone
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/DRo21/ASH.git
 cd ASH
 mkdir build
 cd build
