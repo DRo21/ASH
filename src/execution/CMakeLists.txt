@@ -1,8 +1,9 @@
 add_library(execution
     executor.c
+    builtins.c
     builtins/cd.c
     builtins/echo.c
-    builtins/export.c
+    builtins/exit.c
 )
 
 target_include_directories(execution PUBLIC

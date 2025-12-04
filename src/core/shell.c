@@ -4,6 +4,7 @@
 #include "types.h"
 #include "input.h"
 #include "environment.h"
+#include "execution.h"
 
 void init_shell(void)
 {
